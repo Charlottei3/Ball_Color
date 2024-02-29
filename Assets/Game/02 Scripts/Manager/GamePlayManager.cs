@@ -273,7 +273,7 @@ public class GamePlayManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Can Sort");
+                    //Debug.Log("Can Sort");
                     newTube.ChangeState(StateTube.Moving);
                     SortBall(_hodingTube, newTube, OnMoveComplete);
                     _hodingTube = null;
