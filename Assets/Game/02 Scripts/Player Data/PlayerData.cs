@@ -9,7 +9,7 @@ public class PlayerData : MonoBehaviour
 #if UNITY_EDITOR
     public const string path = "Assets/Game/06. Data/JsonText/PlayerData";
 #else
-    private  string path = Application.persistentDataPath;
+    public  string path = Application.persistentDataPath;
 #endif
     public static UserData UserData = new UserData();
 
