@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28749f12ac581db4f87c5e2391bbe61e, type: 3}
+  m_Name: Ball 03
+  m_EditorClassIdentifier: 
+  BallDataList:
+  - index: 0
+    avatarSpr: {fileID: 21300000, guid: df502a41f5005134d94a1feaa4df45c3, type: 3}
+  - index: 1
+    avatarSpr: {fileID: 21300000, guid: b88a6a68646501341aa58ed773f8f4d8, type: 3}
+  - index: 2
+    avatarSpr: {fileID: 21300000, guid: f5233f40b390e9844a0858f8c05eb207, type: 3}
+  - index: 3
+    avatarSpr: {fileID: 21300000, guid: 103758c1569460f47af6310db26b45de, type: 3}
+  - index: 4
+    avatarSpr: {fileID: 21300000, guid: bf3f8a23ec773d74eb52b8135c19ff89, type: 3}
+  - index: 5
+    avatarSpr: {fileID: 21300000, guid: 2c6d32dd3a8074140b9cb3bf50eb9e17, type: 3}
+  - index: 6
+    avatarSpr: {fileID: 21300000, guid: 56a07dfc80542c8418c0c346d0f40327, type: 3}
+  - index: 7
+    avatarSpr: {fileID: 21300000, guid: 5e07c2f7a2427134fa166e8aef8071dc, type: 3}
+  - index: 8
+    avatarSpr: {fileID: 21300000, guid: 55d612370d3dbb548a95a1b6267a52d8, type: 3}
+  - index: 10
+    avatarSpr: {fileID: 21300000, guid: ecb1a336bff406c45a1f6cffd70a497f, type: 3}
+  - index: 11
+    avatarSpr: {fileID: 21300000, guid: 9a31a42175dfa034da0c1774f75c67ff, type: 3}
+  - index: 12
+    avatarSpr: {fileID: 21300000, guid: 415a9c01658cd9540ae751666308cfc2, type: 3}
+  - index: 9
+    avatarSpr: {fileID: 21300000, guid: 33519bb0cf01620459b61377214b726e, type: 3}
