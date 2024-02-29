@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+
 public class PlayerData : MonoBehaviour
 {
 #if UNITY_EDITOR
     public const string path = "Assets/Game/06. Data/JsonText/PlayerData";
 #else
-    public const string path = Application.persistentDataPath;
+    private  string path = Application.persistentDataPath;
 #endif
     public static UserData UserData = new UserData();
 
+    private void Awake()
+    {
+
+    }
     private void Start()
     {
         InitData();
