@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class PlayerData : MonoBehaviour
 {
-#if UNITY_EDITOR
+
     public const string path = "Assets/Game/06. Data/JsonText/PlayerData";
-#else
-    public  string path = Application.persistentDataPath;
-#endif
+
+    //public const string path = Application.persistentDataPath;
+
     public static UserData UserData = new UserData();
 
     private void Awake()
